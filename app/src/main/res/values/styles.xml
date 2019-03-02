@@ -1,0 +1,35 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="searchViewStyle">@style/AppSearchViewStyle</item>
+
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+
+        <item name="android:windowContentTransitions">true</item>
+
+    </style>
+
+    <style name="AppTheme.Launcher">
+        <!--<item name="android:windowBackground">@drawable/splash_screen</item>-->
+    </style>
+
+    <style name="AppTheme.TranslucentStatus">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppSearchViewStyle" parent="Widget.AppCompat.Light.SearchView">
+        <item name="android:hint">Tìm kiếm</item>
+    </style>
+
+    <style name="MyToolbarTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+    </style>
+</resources>
